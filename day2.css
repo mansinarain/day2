@@ -1,0 +1,104 @@
+#oval {
+	width: 200px;
+	height: 100px;
+	position:absolute;
+	top:70px;
+	left:1px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	-moz-transform:rotate(50deg);
+	transform:rotate(50deg);
+	-webkit-transform:rotate(50deg);
+	opacity:0.5;
+}
+#oval1 {
+	width: 300px;
+	height: 150px;
+	position:absolute;
+	top:80px;
+	left:100px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	-moz-transform:rotate(90deg);
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	opacity:0.8;
+	border:5px dotted black;
+}
+#oval2 {
+	width: 200px;
+	height: 100px;
+	position:absolute;
+	top:70px;
+	left:150px;
+	background: orange;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	-moz-transform:rotate(125deg);
+	transform:rotate(125deg);
+	-webkit-transform:rotate(125deg);
+	opacity:0.5;
+}
+#oval3 {
+	width: 200px;
+	height: 100px;
+	position:absolute;
+	top:170px;
+	left:145px;
+	background: blue;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	-moz-transform:rotate(-120deg);
+	transform:rotate(-120deg);
+	-webkit-transform:rotate(-120deg);
+	opacity:0.4;
+}
+#oval4 {
+	width: 200px;
+	height: 100px;
+	position:absolute;
+	top:170px;
+	left:1px;
+	background: green;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	-moz-transform:rotate(-50deg);
+	transform:rotate(-50deg);
+	-webkit-transform:rotate(-50deg);
+	opacity:0.5;
+}
+#oval5 {
+	width: 770px;
+	height: 80px;
+	position:absolute;
+	top:20px;
+	left:450px;
+	border:6px solid;
+	opacity:0.8;
+	z-index:1;
+	float:right;
+}
+body
+{
+	background: url(vintage/backimg.jpeg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#pic
+{
+	position:fixed;
+	bottom:0;
+	left:100px;
+	display:block;
+	border:2px solid;
+}
+
+
